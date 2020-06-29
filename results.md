@@ -3,7 +3,7 @@ both loss and MAPE has an initial sharp drop, with a minium ~6 nodes, and then s
 Epock had very little effect with a slight decrease in loss and MAPE from 10 to 16 but then it pretty much had no further effect.  
 
 Which model has a lower loss?
-The Stock price model had the lower loss at 0.0252 vs 0.0949
+The Stock price model had the lower loss at 0.0252 vs 0.0949 (of note running the LSTM model with both FGN and close as impurts results in a result with a high loss then close alone at 0.0363, suggesting the metric is not predictive of stock movement, at least in this contect)
 
 Which model tracks the actual values better over time?
 Precictions using stock price as the featcher allowed closer modeling of the stock price 
